@@ -10,16 +10,18 @@ namespace task_4
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= n; i++)
+            int[] y =  { 10, 25, 29, 36, 35, 48, 29 , 58, 66 };
+            int number = 29;
+
+            for (int i = 0; i < y.Length; i++)
             {
-                if (i % 3 == 0 && i % 7 == 0)
+                if (y[i]==number)
                 {
-                    Console.Write(i + " ");
+                    Console.WriteLine(i);
+                    break;
                 }
             }
-            Console.WriteLine();
+
         }
     }
 }
-

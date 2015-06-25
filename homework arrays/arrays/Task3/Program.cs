@@ -4,19 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace task_3
+namespace Task3
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
-            for (int i = 1; i <= n; i++)
+            int[] a = new int[10];
+
+            for (int i = 0; i < a.Length; i++)
+               
+
             {
-                Console.Write(i + " ");
+                a[i] = 10 * i;
+                Console.WriteLine(a[i] + " ");
+
             }
-            Console.WriteLine();
+           
         }
     }
 }
-

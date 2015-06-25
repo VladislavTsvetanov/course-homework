@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TASK_1
 {
@@ -16,7 +12,7 @@ namespace TASK_1
             do
             {
                 number = Int32.Parse(Console.ReadLine());
-                sum += number;
+                sum += number; //sum = sum + number
             } while (number != 0);
             Console.WriteLine("Sum is: " + sum);
         }

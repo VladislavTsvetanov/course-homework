@@ -11,25 +11,31 @@ namespace task_5
         static void Main(string[] args)
         {
             int small = 0;
-    int big = 0;
-    bool initialized = false;
-    for (int i = 0; i < 5; i++) {
-        int n = int.Parse(Console.ReadLine());
-        if (initialized) {
-            if (small > n) {
+            int big = 0;
+            bool initialized = false;
+            for (int i = 0; i < 5; i++)
+            {
+                int n = int.Parse(Console.ReadLine());
+                if (initialized)
+                {
+                    if (small > n)
+                    {
+                        small = n;
+                    }
+                    if (big < n)
+                    {
+                        big = n;
+                    }
+                }
+                else
+                {
                     small = n;
-            }
-            if (big < n) {
                     big = n;
+                    initialized = true;
+                }
             }
-        } else {
-            small = n;
-            big = n;
-            initialized = true;
+            Console.WriteLine("Small: " + small + " Big: " + big);
         }
     }
-    Console.WriteLine("Small: " + small + " Big: " + big);
 }
-        }
-    }
 
