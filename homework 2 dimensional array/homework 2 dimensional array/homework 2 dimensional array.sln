@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework 2 dimensional array", "homework 2 dimensional array\homework 2 dimensional array.csproj", "{31516DE5-B4A8-4F61-9CA7-1B8DC3488948}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework 2 dim array 2", "..\..\homework 2 dimensional array 2\Homework 2 dim array 2\Homework 2 dim array 2.csproj", "{9BB15273-D0F5-4FE6-8BC3-373D7D88E823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework3", "..\..\homework 3 dimensional array\Homework3\Homework3.csproj", "{682AA033-983C-41CB-AD66-39455787A08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework4", "..\Homework4\Homework4\Homework4.csproj", "{D50C3B72-3076-4FD5-8FF8-F6A9923BFF4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework5", "..\homework 5\Homework5\Homework5.csproj", "{710DCDE4-82BF-441A-B66C-F41DD9BF45D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31516DE5-B4A8-4F61-9CA7-1B8DC3488948}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31516DE5-B4A8-4F61-9CA7-1B8DC3488948}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31516DE5-B4A8-4F61-9CA7-1B8DC3488948}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31516DE5-B4A8-4F61-9CA7-1B8DC3488948}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BB15273-D0F5-4FE6-8BC3-373D7D88E823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BB15273-D0F5-4FE6-8BC3-373D7D88E823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BB15273-D0F5-4FE6-8BC3-373D7D88E823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BB15273-D0F5-4FE6-8BC3-373D7D88E823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{682AA033-983C-41CB-AD66-39455787A08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{682AA033-983C-41CB-AD66-39455787A08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{682AA033-983C-41CB-AD66-39455787A08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{682AA033-983C-41CB-AD66-39455787A08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50C3B72-3076-4FD5-8FF8-F6A9923BFF4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50C3B72-3076-4FD5-8FF8-F6A9923BFF4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50C3B72-3076-4FD5-8FF8-F6A9923BFF4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50C3B72-3076-4FD5-8FF8-F6A9923BFF4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{710DCDE4-82BF-441A-B66C-F41DD9BF45D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{710DCDE4-82BF-441A-B66C-F41DD9BF45D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{710DCDE4-82BF-441A-B66C-F41DD9BF45D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{710DCDE4-82BF-441A-B66C-F41DD9BF45D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
