@@ -31,8 +31,8 @@ namespace exam
                     for (int j = 0; j < num; j++)
                     {
                         arr2[j, i] = arr[k++];
-                    }
-            }
+                    } Console.WriteLine(sum);
+            } 
         }
     }
 }
